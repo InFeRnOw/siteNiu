@@ -70,7 +70,7 @@ section .heading h2
 .navAnim:hover > .navImg
 {
     -webkit-animation-name: rotate;
-    -webkit-animation-duration: 0.5s;
+    -webkit-animation-duration: 0.3s;
     -webkit-animation-iteration-count: 1;
     -webkit-animation-timing-function: linear;
     -webkit-animation-fill-mode: forwards;
@@ -107,19 +107,18 @@ section .heading h2
 
 #about
 {
-    padding-top: 100px;
     background: #232626;
 }
-.profile-picture
+/*.profile-picture
 {
     text-align: center;
     margin: 0 auto;
     float: none;
-}
+}*/
 #about .heading h1
 {
     color: #fff;
-    text-transform: uppercase;
+    font-size: 60px;
 }
 #about .heading h3
 {
@@ -167,19 +166,19 @@ section .heading h2
 {
     text-shadow: 1px 1px 1px black;
 }
-/* EXPERIENCE */
+/* LES JOUEURS */
 
-#experience
+#lesJoueurs
 {
     background: #232626;
 }
-#experience .heading h2
+#lesJoueurs .heading h2
 {
     color: white;
 }
-#experience .timeline-heading h3
+#lesJoueurs .timeline-heading h3
 {
-    text-transform: uppercase;
+    font-size: 26px;
 }
 .timeline
 {
